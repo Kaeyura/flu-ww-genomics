@@ -18,7 +18,7 @@
     - [ ] Wastewater (California)
     - [ ] FluView ILI
     - [ ] HA/NP genomic data
-- [ ] **Environment Setup:** Initialize Git repository and reproducible folder structure.
+- [ ] **Environment Setup:** Initialize Git repository and  folder structure.
 
 **Deliverables:** `README.md` and other project files and sample data files
 

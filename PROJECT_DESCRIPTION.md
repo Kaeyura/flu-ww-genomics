@@ -6,13 +6,9 @@ Influenza surveillance today relies mostly on clinical reporting — people visi
 
 Wastewater surveillance has emerged as a way to measure virus circulation at the community level, independent of individual testing behavior. At the same time, viral genome sequencing provides insight into how conserved or variable different viral genes are during a season. This project explores how these two approaches can be combined to better estimate the *true* disease burden of influenza.
 
-Originally, the idea was to test whether wastewater or genomic data could provide earlier outbreak detection than clinical reporting. However, analysis using U.S. data showed that wastewater viral load often rises around the same time as clinical indicators, rather than clearly leading them. This led to a shift in focus toward a more realistic and potentially more impactful goal.
-
 ---
 
 ## Core Idea of the Project
-
-Instead of asking *“Can we detect influenza outbreaks earlier?”*, this project asks:
 
 **Can wastewater surveillance and viral genomics be used to estimate how much influenza is being under-reported clinically?**
 

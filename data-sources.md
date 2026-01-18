@@ -4,5 +4,5 @@ https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusL
 https://data.cdc.gov/Public-Health-Surveillance/CDC-Wastewater-Data-for-Influenza-A/ymmh-divb/data_preview
 ## get season metadata for flu data
 https://gis.cdc.gov/grasp/flu2/GetPhase02InitApp?appVersion=Public
-## actual FLU data
+## actual FLU data (only programmatically)
 https://gis.cdc.gov/grasp/flu2/PostPhase02DataDownload

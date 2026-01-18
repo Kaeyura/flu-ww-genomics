@@ -12,7 +12,7 @@
 **Dates:** Jan 12 – Jan 18  
 **Focus:** Establishing the "Burden Estimation" framework.
 
-- [ ] **Finalize project framing:** Define parameters for burden estimation vs. early detection.
+- [ ] **Finalize project framing:** Define parameters for burden estimation
 - [ ] **Document assumptions:** Note limitations of current datasets.
 - [ ] **Organize Datasets:**
     - [ ] Wastewater (California)

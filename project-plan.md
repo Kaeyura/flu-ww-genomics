@@ -1,26 +1,12 @@
-# 📊 2-Month Project Plan: Integrated Influenza Surveillance
+# 2-Month Project Plan: Integrated Influenza Surveillance
 
 > **Timeline:** January 12, 2026 – March 8, 2026  
 > **Objective:** Quantify clinical under-reporting by integrating wastewater, clinical, and genomic data signals.
 
 ---
 
-## 📅 Project Roadmap at a Glance
 
-| Week | Phase | Focus Area | Status |
-| :--- | :--- | :--- | :--- |
-| **1** | Setup | Scope & Data Inventory | 🟢 Ongoing |
-| **2** | Analysis | Wastewater-Clinical Correlation | ⚪ Pending |
-| **3** | Genomics | HA/NP Diversity Context | ⚪ Pending |
-| **4** | Modeling | Integrated Multivariate Model | ⚪ Pending |
-| **5** | Estimation | Under-Reporting Calculations | ⚪ Pending |
-| **6** | Adaptation | India Counterfactual Case Study | ⚪ Pending |
-| **7** | Synthesis | Final Figures & Methods | ⚪ Pending |
-| **8** | Delivery | Final Report & Slide Deck | ⚪ Pending |
-
----
-
-## 🏗️ Detailed Weekly Breakdown
+## Detailed Weekly Breakdown
 
 ### Week 1: Project Setup & Scope Finalization
 **Dates:** Jan 12 – Jan 18  
@@ -34,12 +20,24 @@
     - [ ] HA/NP genomic data
 - [ ] **Environment Setup:** Initialize Git repository and reproducible folder structure.
 
-**Deliverables:** `README.md`, `data_inventory.csv`, Folder structure.
+**Deliverables:** `README.md` and other project files and sample data files
 
 ---
 
-### Week 2: Wastewater–Clinical Relationship Analysis
-**Dates:** Jan 19 – Jan 25  
+### Week 2: Genomic Context Analysis
+**Dates:**  Jan 19 – Jan 25
+**Focus:** HA vs. NP diversity impact.
+
+- [ ] Analyze HA vs. NP diversity over time.
+- [ ] Overlay genomic diversity metrics with wastewater signal strength.
+- [ ] Identify specific weeks with high genomic variance.
+
+**Deliverables:** Genomic diversity plots, HA/NP behavior summary table.
+
+---
+
+### Week 3: Wastewater–Clinical Relationship Analysis
+**Dates:**  Jan 26 – Feb 1 
 **Focus:** Baseline correlation and regression.
 
 - [ ] Reproduce wastewater vs. ILI analysis.
@@ -48,18 +46,6 @@
 - [ ] Confidence interval estimation for baseline signals.
 
 **Deliverables:** Regression results table, Correlation figures.
-
----
-
-### Week 3: Genomic Context Analysis
-**Dates:** Jan 26 – Feb 1  
-**Focus:** HA vs. NP diversity impact.
-
-- [ ] Analyze HA vs. NP diversity over time.
-- [ ] Overlay genomic diversity metrics with wastewater signal strength.
-- [ ] Identify specific weeks with high genomic variance.
-
-**Deliverables:** Genomic diversity plots, HA/NP behavior summary table.
 
 ---
 
@@ -121,5 +107,3 @@
 
 **Deliverables:** `Final_Report.pdf`, `Presentation_Deck.pptx`, Cleaned GitHub Repo.
 
----
-*Last Updated: January 2026*

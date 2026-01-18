@@ -1,7 +1,7 @@
 # Influenza Surveillance via Genomics & Wastewater
 
 ## Project Status
-**Week 1 – Project initialization & scoping**
+** – Project initialization & scoping**
 
 This repository documents the early-stage development of a computational research project exploring how **viral genomics** and **wastewater surveillance** could be used to estimate influenza disease burden in settings with limited clinical reporting.
 
@@ -21,29 +21,13 @@ This project asks:
 ---
 
 ## Initial Research Questions
-This project is **not** focused on early outbreak detection.
 
-Instead, the guiding questions are:
+The guiding questions are:
 
 1. How do influenza viral genomic characteristics (conserved vs variable genes) behave within a single season?
 2. How does wastewater influenza viral load relate to reported clinical indicators?
 3. Can wastewater + genomics be used to **correct or calibrate** clinical case counts?
 4. Can a model trained on U.S. data be conceptually extended to countries with weaker surveillance infrastructure?
-
----
-
-## Scope (Week 1)
-
-### Included
-- Influenza A virus
-- Publicly available datasets only
-- Computational and statistical analysis
-- No wet-lab or experimental work
-
-### Excluded
-- Human subjects research
-- Individual-level clinical prediction
-- Claims of causality or real-time forecasting
 
 ---
 
@@ -65,63 +49,6 @@ Instead, the guiding questions are:
 - Source: **CDC FluView / ILINet**
 - Metric: weekly influenza-like illness (ILI) percentages
 - Aggregation: weekly, state-level
-
-*Note: These datasets are being used initially to understand feasibility and relationships, not to build a production model.*
-
----
-
-## Planned Methodological Approach (Draft)
-
-### Phase 1 – Genomics (Current)
-- Align HA and NP sequences
-- Quantify within-season variability
-- Compare conserved vs variable genes
-
-### Phase 2 – Wastewater Signal
-- Clean and aggregate viral load data
-- Identify sustained detection periods
-- Compare temporal trends with clinical data
-
-### Phase 3 – Integration
-- Combine genomics, wastewater, and clinical signals
-- Evaluate correlations and structural relationships
-- Explore burden correction models
-
-### Phase 4 – Conceptual Extension
-- Assess applicability to India
-- Identify data gaps and assumptions
-- Propose a transferable modeling framework
-
----
-
-## Tools & Environment
-- Python (pandas, numpy, scipy)
-- BioPython for sequence handling
-- Matplotlib / seaborn for visualization
-- Reproducible scripts (no notebooks required)
-
----
-
-## Ethics & Compliance
-- All data are public and de-identified
-- No personal health information
-- Computational research only
-
----
-
-## Week 1 Goals
-- Finalize project scope and non-goals
-- Validate data availability and quality
-- Establish a clean, reproducible code structure
-- Avoid premature claims or conclusions
-
----
-
-## Next Steps (Week 2)
-- Finalize genomic variability metrics
-- Establish consistent weekly time indexing
-- Produce first exploratory plots (no interpretation yet)
-
 ---
 
 ## Notes
